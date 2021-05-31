@@ -15,7 +15,7 @@ namespace HTTP_Task2.Net
 
         public void ProcessRequest(HttpContext context)
         {
-            var OrderList = new List<OrderSample>();
+            var OrderList = OrderSample.GenerateOrderSamples();
             int? customer = null;
             DateTime? dateFrom = null;
             DateTime? dateTo = null;
