@@ -23,7 +23,7 @@ namespace HTTP_Task2.Net
             OrderDescription = orderDescription;
             PhoneNumber = phoneNumber;
         }
-        public List<OrderSample> GenerateOrderSamples()
+        public static List<OrderSample> GenerateOrderSamples()
         {
             var orderSampleList = new List<OrderSample>();
             for (int i = 0; i < 10; i++)
